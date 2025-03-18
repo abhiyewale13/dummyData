@@ -1,0 +1,54 @@
+{
+  "user": {
+    "name": "Tommy Jason",
+    "hydePin": "M 1 2 3 H"
+  },
+
+  "about": {
+    "description": "Hyde Pay is the world's first completely ID-less, most secured, interoperable and convenient payment mode - using the existing underlying Payment ecosystem."
+  },
+
+  "card_details": {
+    "provider": "HydePay",
+    "masked_number": "****  ****  ****  1987",
+    "description": "Manage your card settings and usage",
+    "availableLimit": "7,12,434.00",
+    "totalLimit": "10,00,000.00",
+    "upcomingPayment": "0.00",
+    "totalOutstanding": "2,87,506.20",
+    "unbilledAmount": "1,43,118.82",
+    "paymentDetails": {
+    "currentOutstanding": "0.00",
+    "lastBillDue": "0.00",
+    "minimumDue": "0.00"
+  }
+  },
+  "limits": {
+    "online_spends": {
+      "enabled": false,
+      "min": 1000,
+      "max": 100000,
+      "current": 50000
+    },
+    "merchant_spends": {
+      "enabled": false,
+      "min": 1000,
+      "max": 100000,
+      "current": 50000
+    }
+  },
+  "card_services": [
+    "Block/Unblock Debit Card",
+    "Modify Debit Card Limit",
+    "Reissue Debit Card",
+    "Upgrade Credit Card",
+    "Block or Unblock Credit Card",
+    "Track My Application",
+    "Unblock Debit Card for 3D Secure"
+  ],
+  "paymentModes": ["Saving Bank Account", "Current Account"],
+  "selectedMode": "Saving Bank Account",
+  "accounts": ["SBA - 123456789012", "SBA - 987654321098"],
+  "paymentModesAvailable": ["One Time", "Recurring"],
+  "selectedPaymentMode": "One Time"
+}
